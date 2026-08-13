@@ -1,0 +1,1366 @@
+{
+ "policies": {
+  "B1": {
+   "values": {
+    "No shifting": [
+     1.2083199562553695,
+     1.215854285273805,
+     1.1914271266479528,
+     1.2015743596361546
+    ],
+    "No shifting|reduction_pct": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Temporal shifting": [
+     1.1511054514204715,
+     1.1582830264998356,
+     1.1350125050527922,
+     1.1446792618990091
+    ],
+    "Temporal shifting|reduction_pct": [
+     4.735045923780648,
+     4.735045923780628,
+     4.7350459237806355,
+     4.735045923780668
+    ],
+    "Geographic shifting": [
+     0.8868322745527083,
+     0.8923620070594482,
+     0.874433980188024,
+     0.881881422949154
+    ],
+    "Geographic shifting|reduction_pct": [
+     26.606171654978205,
+     26.60617165497819,
+     26.606171654978198,
+     26.60617165497822
+    ],
+    "Temporal + geographic": [
+     0.8463986831149668,
+     0.8516762969839968,
+     0.8345656676460234,
+     0.8416735570705193
+    ],
+    "Temporal + geographic|reduction_pct": [
+     29.952436957344542,
+     29.952436957344517,
+     29.952436957344535,
+     29.95243695734452
+    ],
+    "Idealised full migration": [
+     0.12427567336259492,
+     0.12505057888927607,
+     0.12253824631473971,
+     0.1235818889408898
+    ],
+    "Idealised full migration|reduction_pct": [
+     89.7150028252674,
+     89.71500282526739,
+     89.7150028252674,
+     89.7150028252674
+    ]
+   },
+   "caveats": {
+    "No shifting": "served in US-CAISO at its diurnal intensity",
+    "Temporal shifting": "only 22% of the load is delay tolerant; window 6 h",
+    "Geographic shifting": "only 30% of the cloud load may be migrated (US-CAISO -> SE-3)",
+    "Temporal + geographic": "levers are multiplicative, not additive",
+    "Idealised full migration": "UPPER BOUND: 100 % of the workload migrated to SE-3 at its daily minimum (27 g/kWh); ignores migration latency, egress energy and data-sovereignty limits"
+   },
+   "idealised": {
+    "No shifting": false,
+    "Temporal shifting": false,
+    "Geographic shifting": false,
+    "Temporal + geographic": false,
+    "Idealised full migration": true
+   }
+  },
+  "B2": {
+   "values": {
+    "No shifting": [
+     0.19871776553555467,
+     0.19946041163969272,
+     0.19662613130641918,
+     0.19752578672537577
+    ],
+    "No shifting|reduction_pct": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Temporal shifting": [
+     0.18930838807873546,
+     0.19001586954879138,
+     0.187315793690907,
+     0.18817285001262027
+    ],
+    "Temporal shifting|reduction_pct": [
+     4.735045923780623,
+     4.735045923780634,
+     4.735045923780641,
+     4.735045923780617
+    ],
+    "Geographic shifting": [
+     0.19871776553555467,
+     0.19946041163969272,
+     0.19662613130641918,
+     0.19752578672537577
+    ],
+    "Geographic shifting|reduction_pct": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Temporal + geographic": [
+     0.18930838807873546,
+     0.19001586954879138,
+     0.187315793690907,
+     0.18817285001262027
+    ],
+    "Temporal + geographic|reduction_pct": [
+     4.735045923780623,
+     4.735045923780634,
+     4.735045923780641,
+     4.735045923780617
+    ],
+    "Idealised full migration": [
+     0.02043811657102355,
+     0.020514497701852406,
+     0.020222992049651223,
+     0.020315521584073237
+    ],
+    "Idealised full migration|reduction_pct": [
+     89.7150028252674,
+     89.7150028252674,
+     89.7150028252674,
+     89.71500282526739
+    ]
+   },
+   "caveats": {
+    "No shifting": "served in US-CAISO at its diurnal intensity",
+    "Temporal shifting": "only 22% of the load is delay tolerant; window 6 h",
+    "Geographic shifting": "only 30% of the cloud load may be migrated (US-CAISO -> SE-3)",
+    "Temporal + geographic": "levers are multiplicative, not additive",
+    "Idealised full migration": "UPPER BOUND: 100 % of the workload migrated to SE-3 at its daily minimum (27 g/kWh); ignores migration latency, egress energy and data-sovereignty limits"
+   },
+   "idealised": {
+    "No shifting": false,
+    "Temporal shifting": false,
+    "Geographic shifting": false,
+    "Temporal + geographic": false,
+    "Idealised full migration": true
+   }
+  },
+  "B3": {
+   "values": {
+    "No shifting": [
+     0.0007979449103885398,
+     0.0008037378508051351,
+     0.0007869390801166221,
+     0.0007943332097260301
+    ],
+    "No shifting|reduction_pct": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Temporal shifting": [
+     0.000760161852435172,
+     0.0007656804944627044,
+     0.000749677153280923,
+     0.0007567211674576619
+    ],
+    "Temporal shifting|reduction_pct": [
+     4.73504592378066,
+     4.735045923780643,
+     4.735045923780647,
+     4.735045923780625
+    ],
+    "Geographic shifting": [
+     0.0007979449103885398,
+     0.0008037378508051351,
+     0.0007869390801166221,
+     0.0007943332097260301
+    ],
+    "Geographic shifting|reduction_pct": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Temporal + geographic": [
+     0.000760161852435172,
+     0.0007656804944627044,
+     0.000749677153280923,
+     0.0007567211674576619
+    ],
+    "Temporal + geographic|reduction_pct": [
+     4.73504592378066,
+     4.735045923780643,
+     4.735045923780647,
+     4.735045923780625
+    ],
+    "Idealised full migration": [
+     8.206861148938388e-05,
+     8.266441524756465e-05,
+     8.093666215686127e-05,
+     8.169714817828496e-05
+    ],
+    "Idealised full migration|reduction_pct": [
+     89.71500282526739,
+     89.71500282526742,
+     89.7150028252674,
+     89.71500282526739
+    ]
+   },
+   "caveats": {
+    "No shifting": "served in US-CAISO at its diurnal intensity",
+    "Temporal shifting": "only 22% of the load is delay tolerant; window 6 h",
+    "Geographic shifting": "only 30% of the cloud load may be migrated (US-CAISO -> SE-3)",
+    "Temporal + geographic": "levers are multiplicative, not additive",
+    "Idealised full migration": "UPPER BOUND: 100 % of the workload migrated to SE-3 at its daily minimum (27 g/kWh); ignores migration latency, egress energy and data-sovereignty limits"
+   },
+   "idealised": {
+    "No shifting": false,
+    "Temporal shifting": false,
+    "Geographic shifting": false,
+    "Temporal + geographic": false,
+    "Idealised full migration": true
+   }
+  },
+  "B4": {
+   "values": {
+    "No shifting": [
+     0.5724550623112278,
+     0.5778909679924517,
+     0.570538800769971,
+     0.5719884274292404
+    ],
+    "No shifting|reduction_pct": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Temporal shifting": [
+     0.5453490522177841,
+     0.5505275652686286,
+     0.5435235265405254,
+     0.5449045127117551
+    ],
+    "Temporal shifting|reduction_pct": [
+     4.73504592378064,
+     4.735045923780645,
+     4.735045923780667,
+     4.735045923780649
+    ],
+    "Geographic shifting": [
+     0.43637064193036557,
+     0.44044773383648655,
+     0.4346412202366933,
+     0.43589086593761533
+    ],
+    "Geographic shifting|reduction_pct": [
+     23.772070392990415,
+     23.783592713593055,
+     23.819165383647352,
+     23.793761370890923
+    ],
+    "Temporal + geographic": [
+     0.4163679238231622,
+     0.420258550035084,
+     0.41471948538559716,
+     0.4159109291419575
+    ],
+    "Temporal + geographic|reduction_pct": [
+     27.2662692260734,
+     27.277190108191245,
+     27.310905967146805,
+     27.28682798509782
+    ],
+    "Idealised full migration": [
+     0.058876986985323516,
+     0.05943606973105851,
+     0.05867989953994476,
+     0.058828993600894795
+    ],
+    "Idealised full migration|reduction_pct": [
+     89.7150028252674,
+     89.7150028252674,
+     89.7150028252674,
+     89.7150028252674
+    ]
+   },
+   "caveats": {
+    "No shifting": "served in US-CAISO at its diurnal intensity",
+    "Temporal shifting": "only 22% of the load is delay tolerant; window 6 h",
+    "Geographic shifting": "only 30% of the cloud load may be migrated (US-CAISO -> SE-3)",
+    "Temporal + geographic": "levers are multiplicative, not additive",
+    "Idealised full migration": "UPPER BOUND: 100 % of the workload migrated to SE-3 at its daily minimum (27 g/kWh); ignores migration latency, egress energy and data-sovereignty limits"
+   },
+   "idealised": {
+    "No shifting": false,
+    "Temporal shifting": false,
+    "Geographic shifting": false,
+    "Temporal + geographic": false,
+    "Idealised full migration": true
+   }
+  },
+  "B5": {
+   "values": {
+    "No shifting": [
+     0.4266722216975811,
+     0.42525853892917426,
+     0.42191871721472873,
+     0.41981031353950293
+    ],
+    "No shifting|reduction_pct": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Temporal shifting": [
+     0.40646909605618553,
+     0.40512235181607925,
+     0.40194067219358515,
+     0.39993210240064003
+    ],
+    "Temporal shifting|reduction_pct": [
+     4.7350459237806355,
+     4.735045923780647,
+     4.735045923780642,
+     4.735045923780627
+    ],
+    "Geographic shifting": [
+     0.342852936901716,
+     0.34243573268445576,
+     0.3390902968490707,
+     0.33816034864096545
+    ],
+    "Geographic shifting|reduction_pct": [
+     19.644889105359898,
+     19.475871420070984,
+     19.6313690258742,
+     19.44925178472407
+    ],
+    "Temporal + geographic": [
+     0.3270249840561226,
+     0.3266227044916069,
+     0.32343570379230113,
+     0.3225440768168115
+    ],
+    "Temporal + geographic|reduction_pct": [
+     23.354517255657427,
+     23.194321902609673,
+     23.341702893049483,
+     23.169091750657753
+    ],
+    "Idealised full migration": [
+     0.04388322594696503,
+     0.0437378287141747,
+     0.04339432814520287,
+     0.043177478886773944
+    ],
+    "Idealised full migration|reduction_pct": [
+     89.7150028252674,
+     89.7150028252674,
+     89.7150028252674,
+     89.71500282526739
+    ]
+   },
+   "caveats": {
+    "No shifting": "served in US-CAISO at its diurnal intensity",
+    "Temporal shifting": "only 22% of the load is delay tolerant; window 6 h",
+    "Geographic shifting": "only 30% of the cloud load may be migrated (US-CAISO -> SE-3)",
+    "Temporal + geographic": "levers are multiplicative, not additive",
+    "Idealised full migration": "UPPER BOUND: 100 % of the workload migrated to SE-3 at its daily minimum (27 g/kWh); ignores migration latency, egress energy and data-sovereignty limits"
+   },
+   "idealised": {
+    "No shifting": false,
+    "Temporal shifting": false,
+    "Geographic shifting": false,
+    "Temporal + geographic": false,
+    "Idealised full migration": true
+   }
+  },
+  "B6": {
+   "values": {
+    "No shifting": [
+     0.1504897761530164,
+     0.15315734191472083,
+     0.14829399995586207,
+     0.14959196509398287
+    ],
+    "No shifting|reduction_pct": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Temporal shifting": [
+     0.14336401614157637,
+     0.14590527143941706,
+     0.14127221095574077,
+     0.1425087168484969
+    ],
+    "Temporal shifting|reduction_pct": [
+     4.735045923780648,
+     4.735045923780641,
+     4.7350459237806275,
+     4.73504592378063
+    ],
+    "Geographic shifting": [
+     0.1504897761530164,
+     0.15262466554550616,
+     0.14829399995586207,
+     0.14959196509398287
+    ],
+    "Geographic shifting|reduction_pct": [
+     0.0,
+     0.3477968228981584,
+     0.0,
+     0.0
+    ],
+    "Temporal + geographic": [
+     0.14336401614157637,
+     0.14540039954461698,
+     0.14127221095574077,
+     0.1425087168484969
+    ],
+    "Temporal + geographic|reduction_pct": [
+     4.735045923780648,
+     5.06468855696319,
+     4.7350459237806275,
+     4.73504592378063
+    ],
+    "Idealised full migration": [
+     0.015477869225599147,
+     0.015752228288824582,
+     0.015252033705758374,
+     0.015385529383543114
+    ],
+    "Idealised full migration|reduction_pct": [
+     89.7150028252674,
+     89.7150028252674,
+     89.7150028252674,
+     89.71500282526739
+    ]
+   },
+   "caveats": {
+    "No shifting": "served in US-CAISO at its diurnal intensity",
+    "Temporal shifting": "only 22% of the load is delay tolerant; window 6 h",
+    "Geographic shifting": "only 30% of the cloud load may be migrated (US-CAISO -> SE-3)",
+    "Temporal + geographic": "levers are multiplicative, not additive",
+    "Idealised full migration": "UPPER BOUND: 100 % of the workload migrated to SE-3 at its daily minimum (27 g/kWh); ignores migration latency, egress energy and data-sovereignty limits"
+   },
+   "idealised": {
+    "No shifting": false,
+    "Temporal shifting": false,
+    "Geographic shifting": false,
+    "Temporal + geographic": false,
+    "Idealised full migration": true
+   }
+  },
+  "B7": {
+   "values": {
+    "No shifting": [
+     0.4189588819143069,
+     0.42219231504122207,
+     0.41645970551301503,
+     0.41785364353023086
+    ],
+    "No shifting|reduction_pct": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Temporal shifting": [
+     0.3991209864539065,
+     0.4022013150373475,
+     0.39674014720293216,
+     0.39806808161488383
+    ],
+    "Temporal shifting|reduction_pct": [
+     4.735045923780664,
+     4.735045923780651,
+     4.73504592378064,
+     4.735045923780627
+    ],
+    "Geographic shifting": [
+     0.33792344154985393,
+     0.3404778588396425,
+     0.33558203881070386,
+     0.3369087580446525
+    ],
+    "Geographic shifting|reduction_pct": [
+     19.342098679036436,
+     19.3547947914687,
+     19.420286196159648,
+     19.37158781283241
+    ],
+    "Temporal + geographic": [
+     0.32231540864485325,
+     0.32475216444733007,
+     0.32008410763578077,
+     0.3213483319294774
+    ],
+    "Temporal + geographic|reduction_pct": [
+     23.06753178924631,
+     23.079565193975196,
+     23.14163809882019,
+     23.095481658465296
+    ],
+    "Idealised full migration": [
+     0.043089909168177745,
+     0.043422467673927836,
+     0.042832868945913295,
+     0.04297623543160147
+    ],
+    "Idealised full migration|reduction_pct": [
+     89.7150028252674,
+     89.7150028252674,
+     89.7150028252674,
+     89.7150028252674
+    ]
+   },
+   "caveats": {
+    "No shifting": "served in US-CAISO at its diurnal intensity",
+    "Temporal shifting": "only 22% of the load is delay tolerant; window 6 h",
+    "Geographic shifting": "only 30% of the cloud load may be migrated (US-CAISO -> SE-3)",
+    "Temporal + geographic": "levers are multiplicative, not additive",
+    "Idealised full migration": "UPPER BOUND: 100 % of the workload migrated to SE-3 at its daily minimum (27 g/kWh); ignores migration latency, egress energy and data-sovereignty limits"
+   },
+   "idealised": {
+    "No shifting": false,
+    "Temporal shifting": false,
+    "Geographic shifting": false,
+    "Temporal + geographic": false,
+    "Idealised full migration": true
+   }
+  },
+  "B8": {
+   "values": {
+    "No shifting": [
+     0.4512320243850541,
+     0.4342016108942116,
+     0.4291947919788041,
+     0.43049142369788274
+    ],
+    "No shifting|reduction_pct": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Temporal shifting": [
+     0.42986598080761673,
+     0.41364196521657537,
+     0.408872221476133,
+     0.41010745708785085
+    ],
+    "Temporal shifting|reduction_pct": [
+     4.735045923780643,
+     4.73504592378064,
+     4.7350459237806275,
+     4.735045923780651
+    ],
+    "Geographic shifting": [
+     0.3595379009720236,
+     0.34214037137962794,
+     0.3369264122789163,
+     0.3381714563698444
+    ],
+    "Geographic shifting|reduction_pct": [
+     20.32083683288939,
+     21.202417772008992,
+     21.49801941316299,
+     21.44525122824006
+    ],
+    "Temporal + geographic": [
+     0.3429580785520282,
+     0.3263861094708104,
+     0.32142003778362993,
+     0.3226063785220668
+    ],
+    "Temporal + geographic|reduction_pct": [
+     23.995182075249044,
+     24.830746528406873,
+     25.11091844760704,
+     25.06090463988645
+    ],
+    "Idealised full migration": [
+     0.046409200959491526,
+     0.04465762341311309,
+     0.04414267222911945,
+     0.044276030764793375
+    ],
+    "Idealised full migration|reduction_pct": [
+     89.7150028252674,
+     89.7150028252674,
+     89.7150028252674,
+     89.7150028252674
+    ]
+   },
+   "caveats": {
+    "No shifting": "served in US-CAISO at its diurnal intensity",
+    "Temporal shifting": "only 22% of the load is delay tolerant; window 6 h",
+    "Geographic shifting": "only 30% of the cloud load may be migrated (US-CAISO -> SE-3)",
+    "Temporal + geographic": "levers are multiplicative, not additive",
+    "Idealised full migration": "UPPER BOUND: 100 % of the workload migrated to SE-3 at its daily minimum (27 g/kWh); ignores migration latency, egress energy and data-sovereignty limits"
+   },
+   "idealised": {
+    "No shifting": false,
+    "Temporal shifting": false,
+    "Geographic shifting": false,
+    "Temporal + geographic": false,
+    "Idealised full migration": true
+   }
+  },
+  "B9": {
+   "values": {
+    "No shifting": [
+     0.35767884025346236,
+     0.3590093642491222,
+     0.42599952274297,
+     0.44985879937163026
+    ],
+    "No shifting|reduction_pct": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Temporal shifting": [
+     0.34074258290781495,
+     0.34201010598125337,
+     0.40582824970600395,
+     0.42855777862921535
+    ],
+    "Temporal shifting|reduction_pct": [
+     4.735045923780633,
+     4.735045923780641,
+     4.735045923780652,
+     4.735045923780641
+    ],
+    "Geographic shifting": [
+     0.2829649070444378,
+     0.2838504127650058,
+     0.3367467978256919,
+     0.3585431254991126
+    ],
+    "Geographic shifting|reduction_pct": [
+     20.888552746391138,
+     20.935095005478036,
+     20.95136734956612,
+     20.29874129395019
+    ],
+    "Temporal + geographic": [
+     0.26992854420206147,
+     0.27077427792505904,
+     0.3212343105915435,
+     0.3420085717234631
+    ],
+    "Temporal + geographic|reduction_pct": [
+     24.533264531169444,
+     24.577377391982306,
+     24.59280035734626,
+     23.97423987233639
+    ],
+    "Idealised full migration": [
+     0.03678725861468493,
+     0.03692410297004768,
+     0.043814038878488816,
+     0.04626796480565816
+    ],
+    "Idealised full migration|reduction_pct": [
+     89.71500282526739,
+     89.7150028252674,
+     89.71500282526739,
+     89.7150028252674
+    ]
+   },
+   "caveats": {
+    "No shifting": "served in US-CAISO at its diurnal intensity",
+    "Temporal shifting": "only 22% of the load is delay tolerant; window 6 h",
+    "Geographic shifting": "only 30% of the cloud load may be migrated (US-CAISO -> SE-3)",
+    "Temporal + geographic": "levers are multiplicative, not additive",
+    "Idealised full migration": "UPPER BOUND: 100 % of the workload migrated to SE-3 at its daily minimum (27 g/kWh); ignores migration latency, egress energy and data-sovereignty limits"
+   },
+   "idealised": {
+    "No shifting": false,
+    "Temporal shifting": false,
+    "Geographic shifting": false,
+    "Temporal + geographic": false,
+    "Idealised full migration": true
+   }
+  },
+  "B10": {
+   "values": {
+    "No shifting": [
+     0.48133827701573567,
+     0.4547517764771802,
+     0.35562320076708215,
+     0.4299277422189047
+    ],
+    "No shifting|reduction_pct": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Temporal shifting": [
+     0.4585466885503061,
+     0.43321907102177737,
+     0.33878427889514223,
+     0.40957046618576626
+    ],
+    "Temporal shifting|reduction_pct": [
+     4.73504592378064,
+     4.735045923780651,
+     4.735045923780627,
+     4.735045923780648
+    ],
+    "Geographic shifting": [
+     0.37098268397089396,
+     0.36269053696259657,
+     0.280974984413044,
+     0.33754687438108166
+    ],
+    "Geographic shifting|reduction_pct": [
+     22.926826789890644,
+     20.244283645850324,
+     20.99081730129567,
+     21.487533547157277
+    ],
+    "Temporal + geographic": [
+     0.3539514022144788,
+     0.3459632152760125,
+     0.26803252677654527,
+     0.32201166597594794
+    ],
+    "Temporal + geographic|reduction_pct": [
+     26.465145384041918,
+     23.92262478750906,
+     24.630191112841647,
+     25.10097991955344
+    ],
+    "Idealised full migration": [
+     0.04950562819197498,
+     0.04677120736272428,
+     0.03657583615158804,
+     0.04421805614060599
+    ],
+    "Idealised full migration|reduction_pct": [
+     89.7150028252674,
+     89.7150028252674,
+     89.7150028252674,
+     89.7150028252674
+    ]
+   },
+   "caveats": {
+    "No shifting": "served in US-CAISO at its diurnal intensity",
+    "Temporal shifting": "only 22% of the load is delay tolerant; window 6 h",
+    "Geographic shifting": "only 30% of the cloud load may be migrated (US-CAISO -> SE-3)",
+    "Temporal + geographic": "levers are multiplicative, not additive",
+    "Idealised full migration": "UPPER BOUND: 100 % of the workload migrated to SE-3 at its daily minimum (27 g/kWh); ignores migration latency, egress energy and data-sovereignty limits"
+   },
+   "idealised": {
+    "No shifting": false,
+    "Temporal shifting": false,
+    "Geographic shifting": false,
+    "Temporal + geographic": false,
+    "Idealised full migration": true
+   }
+  },
+  "A1": {
+   "values": {
+    "No shifting": [
+     0.48133827701573567,
+     0.4547517764771802,
+     0.35562320076708215,
+     0.4299277422189047
+    ],
+    "No shifting|reduction_pct": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Temporal shifting": [
+     0.4585466885503061,
+     0.43321907102177737,
+     0.33878427889514223,
+     0.40957046618576626
+    ],
+    "Temporal shifting|reduction_pct": [
+     4.73504592378064,
+     4.735045923780651,
+     4.735045923780627,
+     4.735045923780648
+    ],
+    "Geographic shifting": [
+     0.37098268397089396,
+     0.36269053696259657,
+     0.280974984413044,
+     0.33754687438108166
+    ],
+    "Geographic shifting|reduction_pct": [
+     22.926826789890644,
+     20.244283645850324,
+     20.99081730129567,
+     21.487533547157277
+    ],
+    "Temporal + geographic": [
+     0.3539514022144788,
+     0.3459632152760125,
+     0.26803252677654527,
+     0.32201166597594794
+    ],
+    "Temporal + geographic|reduction_pct": [
+     26.465145384041918,
+     23.92262478750906,
+     24.630191112841647,
+     25.10097991955344
+    ],
+    "Idealised full migration": [
+     0.04950562819197498,
+     0.04677120736272428,
+     0.03657583615158804,
+     0.04421805614060599
+    ],
+    "Idealised full migration|reduction_pct": [
+     89.7150028252674,
+     89.7150028252674,
+     89.7150028252674,
+     89.7150028252674
+    ]
+   },
+   "caveats": {
+    "No shifting": "served in US-CAISO at its diurnal intensity",
+    "Temporal shifting": "only 22% of the load is delay tolerant; window 6 h",
+    "Geographic shifting": "only 30% of the cloud load may be migrated (US-CAISO -> SE-3)",
+    "Temporal + geographic": "levers are multiplicative, not additive",
+    "Idealised full migration": "UPPER BOUND: 100 % of the workload migrated to SE-3 at its daily minimum (27 g/kWh); ignores migration latency, egress energy and data-sovereignty limits"
+   },
+   "idealised": {
+    "No shifting": false,
+    "Temporal shifting": false,
+    "Geographic shifting": false,
+    "Temporal + geographic": false,
+    "Idealised full migration": true
+   }
+  },
+  "A2": {
+   "values": {
+    "No shifting": [
+     0.13375623804228165,
+     0.13399093513394908,
+     0.13179818392768577,
+     0.13277946478706978
+    ],
+    "No shifting|reduction_pct": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Temporal shifting": [
+     0.12742281874505826,
+     0.12764640282165346,
+     0.125557479392001,
+     0.12649229615205188
+    ],
+    "Temporal shifting|reduction_pct": [
+     4.7350459237806435,
+     4.735045923780642,
+     4.735045923780634,
+     4.735045923780648
+    ],
+    "Geographic shifting": [
+     0.13375623804228165,
+     0.13399093513394908,
+     0.13179818392768577,
+     0.13277946478706978
+    ],
+    "Geographic shifting|reduction_pct": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Temporal + geographic": [
+     0.12742281874505826,
+     0.12764640282165346,
+     0.125557479392001,
+     0.12649229615205188
+    ],
+    "Temporal + geographic|reduction_pct": [
+     4.7350459237806435,
+     4.735045923780642,
+     4.735045923780634,
+     4.735045923780648
+    ],
+    "Idealised full migration": [
+     0.013756825303677276,
+     0.013780963892924453,
+     0.013555439493311356,
+     0.013656364201975192
+    ],
+    "Idealised full migration|reduction_pct": [
+     89.71500282526739,
+     89.7150028252674,
+     89.7150028252674,
+     89.7150028252674
+    ]
+   },
+   "caveats": {
+    "No shifting": "served in US-CAISO at its diurnal intensity",
+    "Temporal shifting": "only 22% of the load is delay tolerant; window 6 h",
+    "Geographic shifting": "only 30% of the cloud load may be migrated (US-CAISO -> SE-3)",
+    "Temporal + geographic": "levers are multiplicative, not additive",
+    "Idealised full migration": "UPPER BOUND: 100 % of the workload migrated to SE-3 at its daily minimum (27 g/kWh); ignores migration latency, egress energy and data-sovereignty limits"
+   },
+   "idealised": {
+    "No shifting": false,
+    "Temporal shifting": false,
+    "Geographic shifting": false,
+    "Temporal + geographic": false,
+    "Idealised full migration": true
+   }
+  },
+  "A3": {
+   "values": {
+    "No shifting": [
+     0.48344218979136594,
+     0.45754863781913463,
+     0.3575268504067406,
+     0.43203996958923757
+    ],
+    "No shifting|reduction_pct": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Temporal shifting": [
+     0.460550980089814,
+     0.43588349969476586,
+     0.340597789850135,
+     0.4115826786200993
+    ],
+    "Temporal shifting|reduction_pct": [
+     4.735045923780643,
+     4.735045923780637,
+     4.735045923780616,
+     4.735045923780635
+    ],
+    "Geographic shifting": [
+     0.3730865967465242,
+     0.36548739830455096,
+     0.2828786340527025,
+     0.33965910175141456
+    ],
+    "Geographic shifting|reduction_pct": [
+     22.827050550235743,
+     20.120536245804484,
+     20.879051816420077,
+     21.38248179344476
+    ],
+    "Temporal + geographic": [
+     0.3559556937539867,
+     0.3486276439490009,
+     0.26984603773153804,
+     0.32402387841028096
+    ],
+    "Temporal + geographic|reduction_pct": [
+     26.370577233318677,
+     23.805336715522976,
+     24.524259527767615,
+     25.001411624404337
+    ],
+    "Idealised full migration": [
+     0.04972201556150739,
+     0.04705886447272549,
+     0.036771626463243716,
+     0.04443529866596867
+    ],
+    "Idealised full migration|reduction_pct": [
+     89.7150028252674,
+     89.71500282526739,
+     89.7150028252674,
+     89.7150028252674
+    ]
+   },
+   "caveats": {
+    "No shifting": "served in US-CAISO at its diurnal intensity",
+    "Temporal shifting": "only 22% of the load is delay tolerant; window 6 h",
+    "Geographic shifting": "only 30% of the cloud load may be migrated (US-CAISO -> SE-3)",
+    "Temporal + geographic": "levers are multiplicative, not additive",
+    "Idealised full migration": "UPPER BOUND: 100 % of the workload migrated to SE-3 at its daily minimum (27 g/kWh); ignores migration latency, egress energy and data-sovereignty limits"
+   },
+   "idealised": {
+    "No shifting": false,
+    "Temporal shifting": false,
+    "Geographic shifting": false,
+    "Temporal + geographic": false,
+    "Idealised full migration": true
+   }
+  },
+  "A4": {
+   "values": {
+    "No shifting": [
+     0.4010009413189838,
+     0.545670266235732,
+     0.593376663893439,
+     0.4770462219022813
+    ],
+    "No shifting|reduction_pct": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Temporal shifting": [
+     0.3820133625927372,
+     0.519832528537054,
+     0.5652800063570872,
+     0.45445786421754775
+    ],
+    "Temporal shifting|reduction_pct": [
+     4.735045923780648,
+     4.735045923780647,
+     4.735045923780638,
+     4.735045923780647
+    ],
+    "Geographic shifting": [
+     0.3262397325482034,
+     0.43474198672953396,
+     0.4651502935397678,
+     0.38466535406445834
+    ],
+    "Geographic shifting|reduction_pct": [
+     18.64364919565368,
+     20.328811439814924,
+     21.60960788587713,
+     19.36518173636146
+    ],
+    "Temporal + geographic": [
+     0.31115451600020516,
+     0.4146944486485531,
+     0.4437467559535818,
+     0.3668990640077294
+    ],
+    "Temporal + geographic|reduction_pct": [
+     22.405539753411347,
+     24.002740426138,
+     25.216682260145024,
+     23.089409964369146
+    ],
+    "Idealised full migration": [
+     0.04124293548530861,
+     0.05612217146570089,
+     0.061028773116962746,
+     0.04906419044481824
+    ],
+    "Idealised full migration|reduction_pct": [
+     89.71500282526739,
+     89.7150028252674,
+     89.7150028252674,
+     89.7150028252674
+    ]
+   },
+   "caveats": {
+    "No shifting": "served in US-CAISO at its diurnal intensity",
+    "Temporal shifting": "only 22% of the load is delay tolerant; window 6 h",
+    "Geographic shifting": "only 30% of the cloud load may be migrated (US-CAISO -> SE-3)",
+    "Temporal + geographic": "levers are multiplicative, not additive",
+    "Idealised full migration": "UPPER BOUND: 100 % of the workload migrated to SE-3 at its daily minimum (27 g/kWh); ignores migration latency, egress energy and data-sovereignty limits"
+   },
+   "idealised": {
+    "No shifting": false,
+    "Temporal shifting": false,
+    "Geographic shifting": false,
+    "Temporal + geographic": false,
+    "Idealised full migration": true
+   }
+  },
+  "A5": {
+   "values": {
+    "No shifting": [
+     0.5274979968237872,
+     0.4987441202532013,
+     0.392224549083305,
+     0.47272168731762054
+    ],
+    "No shifting|reduction_pct": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Temporal shifting": [
+     0.5025207244271579,
+     0.4751283571170565,
+     0.3736525365598689,
+     0.45033809833146043
+    ],
+    "Temporal shifting|reduction_pct": [
+     4.735045923780643,
+     4.735045923780642,
+     4.735045923780658,
+     4.7350459237806515
+    ],
+    "Geographic shifting": [
+     0.40660978685779703,
+     0.3978803506121264,
+     0.3099445199384699,
+     0.3712268910795396
+    ],
+    "Geographic shifting|reduction_pct": [
+     22.917283230247666,
+     20.223550623487775,
+     20.977786662547622,
+     21.47030672825612
+    ],
+    "Temporal + geographic": [
+     0.3879425994119584,
+     0.3795294429575146,
+     0.295667334626087,
+     0.3541410957037379
+    ],
+    "Temporal + geographic|reduction_pct": [
+     26.45609997613845,
+     23.90297398095922,
+     24.617840643296933,
+     25.084652300753998
+    ],
+    "Idealised full migration": [
+     0.054253154070097565,
+     0.05129581867718671,
+     0.040340283791825596,
+     0.04861941218496554
+    ],
+    "Idealised full migration|reduction_pct": [
+     89.7150028252674,
+     89.7150028252674,
+     89.71500282526739,
+     89.7150028252674
+    ]
+   },
+   "caveats": {
+    "No shifting": "served in US-CAISO at its diurnal intensity",
+    "Temporal shifting": "only 22% of the load is delay tolerant; window 6 h",
+    "Geographic shifting": "only 30% of the cloud load may be migrated (US-CAISO -> SE-3)",
+    "Temporal + geographic": "levers are multiplicative, not additive",
+    "Idealised full migration": "UPPER BOUND: 100 % of the workload migrated to SE-3 at its daily minimum (27 g/kWh); ignores migration latency, egress energy and data-sovereignty limits"
+   },
+   "idealised": {
+    "No shifting": false,
+    "Temporal shifting": false,
+    "Geographic shifting": false,
+    "Temporal + geographic": false,
+    "Idealised full migration": true
+   }
+  },
+  "A0": {
+   "values": {
+    "No shifting": [
+     0.48133827701573567,
+     0.4547517764771802,
+     0.35562320076708215,
+     0.4299277422189047
+    ],
+    "No shifting|reduction_pct": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "Temporal shifting": [
+     0.4585466885503061,
+     0.43321907102177737,
+     0.33878427889514223,
+     0.40957046618576626
+    ],
+    "Temporal shifting|reduction_pct": [
+     4.73504592378064,
+     4.735045923780651,
+     4.735045923780627,
+     4.735045923780648
+    ],
+    "Geographic shifting": [
+     0.37098268397089396,
+     0.36269053696259657,
+     0.280974984413044,
+     0.33754687438108166
+    ],
+    "Geographic shifting|reduction_pct": [
+     22.926826789890644,
+     20.244283645850324,
+     20.99081730129567,
+     21.487533547157277
+    ],
+    "Temporal + geographic": [
+     0.3539514022144788,
+     0.3459632152760125,
+     0.26803252677654527,
+     0.32201166597594794
+    ],
+    "Temporal + geographic|reduction_pct": [
+     26.465145384041918,
+     23.92262478750906,
+     24.630191112841647,
+     25.10097991955344
+    ],
+    "Idealised full migration": [
+     0.04950562819197498,
+     0.04677120736272428,
+     0.03657583615158804,
+     0.04421805614060599
+    ],
+    "Idealised full migration|reduction_pct": [
+     89.7150028252674,
+     89.7150028252674,
+     89.7150028252674,
+     89.7150028252674
+    ]
+   },
+   "caveats": {
+    "No shifting": "served in US-CAISO at its diurnal intensity",
+    "Temporal shifting": "only 22% of the load is delay tolerant; window 6 h",
+    "Geographic shifting": "only 30% of the cloud load may be migrated (US-CAISO -> SE-3)",
+    "Temporal + geographic": "levers are multiplicative, not additive",
+    "Idealised full migration": "UPPER BOUND: 100 % of the workload migrated to SE-3 at its daily minimum (27 g/kWh); ignores migration latency, egress energy and data-sovereignty limits"
+   },
+   "idealised": {
+    "No shifting": false,
+    "Temporal shifting": false,
+    "Geographic shifting": false,
+    "Temporal + geographic": false,
+    "Idealised full migration": true
+   }
+  }
+ },
+ "region_traces": {
+  "US-CAISO": [
+   268.0,
+   262.0,
+   258.0,
+   256.0,
+   258.0,
+   272.0,
+   288.0,
+   296.0,
+   258.0,
+   205.0,
+   162.0,
+   138.0,
+   128.0,
+   132.0,
+   152.0,
+   196.0,
+   252.0,
+   312.0,
+   348.0,
+   352.0,
+   336.0,
+   316.0,
+   296.0,
+   280.0
+  ],
+  "DE-LU": [
+   352.0,
+   340.0,
+   330.0,
+   326.0,
+   330.0,
+   348.0,
+   386.0,
+   412.0,
+   396.0,
+   358.0,
+   318.0,
+   296.0,
+   286.0,
+   292.0,
+   312.0,
+   348.0,
+   396.0,
+   442.0,
+   468.0,
+   472.0,
+   452.0,
+   424.0,
+   396.0,
+   372.0
+  ],
+  "FR": [
+   58.0,
+   55.0,
+   53.0,
+   52.0,
+   53.0,
+   57.0,
+   64.0,
+   70.0,
+   68.0,
+   63.0,
+   58.0,
+   55.0,
+   53.0,
+   54.0,
+   57.0,
+   63.0,
+   71.0,
+   80.0,
+   86.0,
+   88.0,
+   83.0,
+   76.0,
+   69.0,
+   63.0
+  ],
+  "SE-3": [
+   31.0,
+   30.0,
+   29.0,
+   28.0,
+   29.0,
+   31.0,
+   35.0,
+   38.0,
+   37.0,
+   34.0,
+   31.0,
+   29.0,
+   27.0,
+   28.0,
+   30.0,
+   33.0,
+   37.0,
+   41.0,
+   44.0,
+   45.0,
+   42.0,
+   39.0,
+   36.0,
+   33.0
+  ]
+ },
+ "host_region": "US-CAISO",
+ "clean_region": "SE-3",
+ "embodied_g_per_1000": {
+  "cloud": 0.09756859071927576,
+  "edge": 0.0150063240937252,
+  "device": 0.000321061643835616,
+  "total": 0.11289597645683658
+ }
+}
